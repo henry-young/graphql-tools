@@ -14,7 +14,7 @@ import {
   findDeprecatedUsages,
   graphql,
   parse,
-  subscribe
+  subscribe, GraphQLField, defaultFieldResolver
 } from 'graphql';
 import mergeSchemas from '../stitching/mergeSchemas';
 import {

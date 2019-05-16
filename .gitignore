@@ -1,7 +1,8 @@
 node_modules
 coverage
 npm-debug.log
-dist
+#dist
 *.tgz
 .DS_Store
 package-lock.json
+.idea/*
